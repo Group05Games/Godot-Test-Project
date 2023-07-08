@@ -1,0 +1,18 @@
+[gd_scene load_steps=2 format=3 uid="uid://bcrgolnarxk45"]
+
+[ext_resource type="Texture2D" uid="uid://co7p2v1ptpcmo" path="res://Art/Temp background.png" id="1_003fu"]
+
+[node name="Level" type="Node2D"]
+
+[node name="Background" type="Sprite2D" parent="."]
+scale = Vector2(0.632967, 0.632813)
+texture = ExtResource("1_003fu")
+centered = false
+
+[node name="Label" type="Label" parent="."]
+modulate = Color(0, 0, 0, 1)
+offset_left = 20.0
+offset_top = 14.0
+offset_right = 81.0
+offset_bottom = 40.0
+text = "Score: 0"
