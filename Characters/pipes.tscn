@@ -1,4 +1,6 @@
-[gd_scene format=3 uid="uid://b1w6qkwfjp753"]
+[gd_scene load_steps=2 format=3 uid="uid://b1w6qkwfjp753"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_rvtui"]
 
 [node name="Pipes" type="Node2D"]
 
@@ -7,3 +9,4 @@
 [node name="Area2D" type="Area2D" parent="."]
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
+shape = SubResource("RectangleShape2D_rvtui")
